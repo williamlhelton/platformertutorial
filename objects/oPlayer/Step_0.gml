@@ -4,6 +4,8 @@ key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(vk_space);
 
+// set flip sprite left/right
+
 // jumping
 if (place_meeting(x, y + 1, oWall) && (key_jump)){
 	verticalSpeed = -20;
@@ -13,6 +15,12 @@ if (place_meeting(x, y + 1, oWall) && (key_jump)){
 var move = key_right - key_left;
 horizontalSpeed = move * walkSpeed;
 verticalSpeed = verticalSpeed + playerGravity;
+
+if (move < 0) {
+	image_xscale = -1;	
+} else if (move > 0) {
+	image_xscale = 1;	
+}
 
 // check for collision
 // place_meeting() is manual collision check
