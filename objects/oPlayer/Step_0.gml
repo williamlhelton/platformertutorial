@@ -12,15 +12,9 @@ if (place_meeting(x, y + 1, oWall) && (key_jump)){
 }
 
 // calculate movement direction
-var move = key_right - key_left;
+move = key_right - key_left;
 horizontalSpeed = move * walkSpeed;
 verticalSpeed = verticalSpeed + playerGravity;
-
-if (move < 0) {
-	image_xscale = -1;	
-} else if (move > 0) {
-	image_xscale = 1;	
-}
 
 // check for collision
 // place_meeting() is manual collision check

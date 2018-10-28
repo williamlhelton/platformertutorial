@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "414f3689-1077-4788-8eab-65b2e7325cbd",
+            "Value": {
+                "id": "a0e13b85-b6fc-465f-8980-34170400d123",
+                "resourcePath": "objects\\oGun\\oGun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "42eb3679-39d0-4580-94bb-b3eaf9734c88",
             "Value": {
                 "id": "8beb5da7-70ef-49ae-855f-fc521b42aaac",
@@ -92,6 +100,22 @@
                 "id": "4b14e1bf-cd51-4905-adb7-b9fcb24c3a84",
                 "resourcePath": "views\\54821e60-539d-4233-b7f2-32fa836f011f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "60add26e-62c1-42c2-9e1c-3931e1566628",
+            "Value": {
+                "id": "5a3b57b7-b802-4d15-b83a-777d5e4f54ed",
+                "resourcePath": "sprites\\sBullet\\sBullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "71f84e05-5431-433e-8422-195fc92b654d",
+            "Value": {
+                "id": "a17cc2f8-0777-4e77-bdcb-4c1c7616ed9e",
+                "resourcePath": "objects\\oBullet\\oBullet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -191,6 +215,14 @@
             }
         },
         {
+            "Key": "dd0825e9-d2a5-4b23-b01b-26d90f4d37ec",
+            "Value": {
+                "id": "5d74a0b1-812a-4166-bd3c-0f5c873f03e9",
+                "resourcePath": "sprites\\sGun\\sGun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e44affad-a9d8-48c8-aa0f-4244e95e9701",
             "Value": {
                 "id": "2e3e20ce-8f9f-46cf-94f4-167abbccbc0d",
@@ -228,6 +260,14 @@
                 "id": "c0471a30-346f-4d8d-a4ea-c68cb272096d",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f8e46a62-cac2-47da-a635-e827998aa4b6",
+            "Value": {
+                "id": "6dbdcc39-8d30-49bb-a715-5fa265585330",
+                "resourcePath": "sprites\\sPlayerJump\\sPlayerJump.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
